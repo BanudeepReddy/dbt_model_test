@@ -1,7 +1,7 @@
 WITH CTE_1 AS
 (
     select * from {{ref('int_CPSPDLO_3')}}
-    where Round(Distance,1)<=3.0 AND  Num_of_Observations <= 10
+    where Round(Distance,1)<=2.5 AND  Num_of_Observations <= 10
 )
 
 , CTE_2 AS
